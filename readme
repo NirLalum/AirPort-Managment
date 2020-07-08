@@ -1,2 +1,16 @@
-314055344 shiramgilboa@campus.technion.ac.il shiram gilboa
-204450779 nirlalum@campus.technion.ac.il nir lalum
+this program simulates an airport managment system.
+the program supports the following commands:
+
+insert <runwayNumber> <runwayType> - insert new runway to the airport (E - emergancy, R - Regualar)
+
+Remove <runwayNumber> - delete runway from airport
+
+Add <flightNumber> <flightType> <destenation> <emergency> - add a new flight
+
+Depart - take off by certain rules
+
+Change <destenation> <newDestenation> - change flight's destination
+
+Delay <destenation> - delay a flight by certain rules
+
+Print - print the airport status
